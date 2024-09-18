@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator_conatiner ">
+      <!-- upper container -->
+      <div class="input_boxes">
+        <input type="text" id="userInput" disabled />
+        <input type="number" id="displayInput" disabled />
+      </div>
+      <!-- lower -->
+
+      <div class="lower_calculator">
+        <!-- 6 rows and 4 cols -->
+        <div class="each_row">
+          <button class="theme first_row " value="moon"><img src="moon.png" alt="moon" class="img"></button>
+          <button class="each_col first_row">%</button>
+          <button class="each_col first_row">/</button>
+          <button class="each_col first_row">X</button>
+        </div>
+        <div class="each_row">
+          <button class="each_col second">7</button>
+          <button class="each_col">8</button>
+          <button class="each_col">9</button>
+          <button class="each_col first_row">-</button>
+     
+        </div>
+        <div class="each_row">
+          <button class="each_col second">4</button>
+          <button class="each_col">5</button>
+          <button class="each_col">6</button>
+          <button class="each_col first_row">+</button>
+        </div>
+   
+        <div class="each_row ">
+          <button class="each_col second">1</button>
+          <button class="each_col">2</button>
+          <button class="each_col">3</button>
+          <button class="each_col first_row" >C</button>
+        </div>
+        
+        <div class="each_row ">
+          <button class=" each_col" id="AC">AC</button>
+          <button class="each_col">0</button>
+          <button class="each_col">.</button>
+          <button class="each_col" id="equal">=</button>
+        </div>
+        
+        
+         
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
